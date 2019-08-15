@@ -1,0 +1,106 @@
+.form-content{
+    width: 100%;
+    height: 700px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+}
+.headerButton{
+    margin-right: 30px;
+}
+.headerButton .el-icon-rank,.el-icon-menu{
+    color: #909399;
+}
+.headerButton .el-icon-rank:hover,.el-icon-menu:hover{
+    color: #409EFF;
+}
+.form-button{
+    margin-top: 20px;
+    text-align: right;
+}
+.form-button button{
+    display: inline-block;
+    width: 120px;
+}
+.list{
+    font-size: 18px;
+}
+.list-lable{
+    width: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.list-data{
+    display: inline-block;
+    vertical-align: top;
+}
+.list-data img{
+    width: 160px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: top;
+}
+.list-item{
+    display: inline-block;
+    vertical-align: top;
+}
+.list-item2{
+    margin-bottom: 20px;
+    padding: 20px 80px 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+}
+.reason{
+    position: relative;
+    width: 100%;
+    padding: 0 10px 60px 10px;
+    box-sizing: border-box;
+}
+.reason-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.reason-content{
+    width: 100%;
+    margin: 10px 0;
+    padding: 18px;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    word-wrap: break-word;
+}
+.reason-message{
+    position: absolute;
+    right: 0;
+    color: #999999;
+}
+.message-author{
+    width: 240px;
+    font-size: 16px;
+}
+.message-time{
+    width: 240px;
+    font-size: 14px;
+}
+
+.department{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.department-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.department-list{
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+}

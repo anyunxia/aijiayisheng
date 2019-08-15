@@ -1,0 +1,82 @@
+.home{
+    height: 100%;
+    margin: 0px;
+    padding: 12px 18px 0px 18px;
+}
+.model{
+    width: 268px;
+    height: 120px;
+    margin: 0 4px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.model0{
+    background: #F44336;
+}
+.model1{
+    background: #ff9800;
+}
+.model2{
+    background: #2196F3;
+}
+.model3{
+    background: #4CAF50;
+}
+.model4{
+    background: #8A2BE2;
+}
+.model5{
+    background: #FFC0CB;
+}
+.model6{
+    background: #33EE66;
+}
+.model7{
+    background: #65AEEE;
+}
+
+.model:hover img{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.model-img{
+    width: 80px;
+    height: 120px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model img{
+    width: 48px;
+    height: 48px;
+    transition: 0.6s all;
+}
+.model-lable{
+    height: 120px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #ffffff;
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+}
+.lable-number{
+    height: 60px;
+    padding-left: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.lable-title{
+    height: 60px;
+    padding-left: 24px;
+}
+.home-echarts{
+    margin-bottom: 12px;
+}
+.echarts{
+    border-radius: 8px;
+    height: 300px;
+    border: 1px solid #eeeeee;
+}

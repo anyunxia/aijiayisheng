@@ -1,0 +1,245 @@
+/* ------------------------------------ 基本部分 ------------------------------------ */
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.el-container{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: hidden;
+}
+.el-header{
+    width: 100% !important;
+    /* min-width: 1480px !important; */
+    height: 5rem !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: relative !important;
+    line-height: 5rem !important;
+    background: #e6e3e3 !important;
+}
+.el-aside{
+    width: 200px !important;
+    background: #00152a !important;
+    overflow: hidden !important;
+    margin-bottom: -1px !important;
+}
+.el-aside:hover{
+    overflow-y: auto !important;
+}
+.el-main{
+    width: 100% !important;
+    /* min-width: 1280px !important; */
+    margin: 0px !important;
+    padding: 0px !important;
+    background: #f2f2f2 !important;
+    overflow: hidden;
+}
+.el-footer{
+    width: 100% !important;
+    /* min-width: 1480px !important; */
+    height: 28px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* ------------------------------------ head部分 ------------------------------------ */
+.head{
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.head-logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background: #171e30;
+    text-align: center;
+}
+.head-content{
+    height: 5rem;
+    background: #ffffff;
+}
+.content-user{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 5rem;
+}
+.user-img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    line-height: 4rem;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius: 4rem;
+    display: inline-block;
+    vertical-align: top;
+    cursor: default;
+}
+.user-img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+.user-name{
+    margin-right: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.el-dropdown-link{
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+/* ------------------------------------ menu部分 ------------------------------------ */
+.el-menu{
+    width: 200px !important;
+    background: #00152a !important;
+}
+/* 一级菜单 */
+.el-menu-item{
+    color: #e6e3e3 !important;
+    background: #00152a !important;
+}
+.el-menu-item:hover{
+    color: #ffffff !important;
+    background: #000000 !important;
+}
+.el-menu-item i{
+    color: #e6e3e3 !important;
+}
+.el-menu-item:hover i{
+    color: #ffffff !important;
+}
+/* 二级菜单 */
+.el-submenu__title{
+    color: #e6e3e3 !important;
+    background: #00152a !important;
+}
+.el-submenu__title:hover{
+    color: #ffffff !important;
+    background: #000000 !important;
+}
+.el-submenu__title i{
+    color: #e6e3e3 !important;
+}
+.el-submenu__title:hover i{
+    color: #ffffff !important;
+}
+/* 当前选中菜单的标题 */
+.el-menu .is-active{
+    color: #ffffff !important;
+    background: #188ae2 !important;
+}
+.el-menu .is-active:hover{
+    color: #ffffff !important;
+    background: #188ae2 !important;
+}
+/* 当前选中菜单的图标 */
+.el-menu .is-active i{
+    color: #ffffff !important;
+}
+.el-menu .is-active:hover i{
+    color: #ffffff !important;
+}
+.menu-icon{
+    width: 26px;
+    display: inline-block;
+}
+
+/* ------------------------------------ main部分 ------------------------------------ */
+.main{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #f6f7f9;
+}
+.el-tag{
+    height: 30px !important;
+    margin:6px 2px !important;
+    cursor: pointer !important;
+}
+.main-tag{
+    position: relative;
+    height: 42px;
+    width: 100%;
+    padding: 0px;
+    border-radius: 0px;
+    border-top: 2px solid  #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+.tag-scrollOuter{
+    position: absolute;
+    left: 32px;
+    right: 66px;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 0 3px 2px rgba(100,100,100,.1) inset;
+}
+.tag-scrollBody{
+    height: "calc(100% - 1px)";
+    display: inline-block;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    transition: left .3s ease;
+    margin-left: 4px;
+}
+.tag-btn{
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    text-align: center;
+    background: #ffffff;
+    display: inline-block;
+    z-index: 10;
+}
+.left-btn{
+    left: 0px;
+}
+.right-btn{
+    right: 32px;
+    border-right: 2px solid #f0f0f0;
+}
+.close-btn{
+    right: 0px;
+}
+.main-content{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    height:100%;
+}
+
+/* ------------------------------------ foot部分 ------------------------------------ */
+.foot{
+    position: relative;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ffffff;
+    background: #171e30;
+    text-align: center;
+}
+.foot-copy{
+    display: inline-block;
+}
+.foot-time{
+    position: absolute;
+    top: 0px;
+    right: 1rem;
+}
